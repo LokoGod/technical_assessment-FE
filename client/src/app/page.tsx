@@ -1,8 +1,10 @@
+import FlashSale from "@/components/sections/FlashSale";
+
 export default function Home() {
   return (
     <main>
       <section>
-      <h2>Flash Sale</h2>
+        <FlashSale />
       </section>
     </main>
   );
