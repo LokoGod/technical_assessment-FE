@@ -16,33 +16,35 @@ async function getFlashSaleData() {
 export default async function FlashSale() {
   const flashData = await getFlashSaleData();
 
+  
+
   return (
     <>
       <h2 className="mb-5">Flash Sale</h2>
 
       <div className="flex justify-between">
         {flashData.map((products: any) => {
+         
           return (
             <div key={products.id}>
-              <div className=" w-[300px] h-[400px] rounded-3xl overflow-hidden shadow-xl bg-white">
+              <div className=" max-w-[300px] h-[400px] rounded-3xl overflow-hidden shadow-xl bg-white">
                 <div className="py-4 text-center">
-                  <div className="font-semibold text-xl mb-2">
+                  <div className="font-semibold text-xl mb-2 mx-2">
                     {products.title}
                   </div>
                 </div>
                 <div className="flex justify-center">
-                  <Image
-                    src={MensJacket}
-                    alt="Picture of the author"
-                    width={200}
-                    height={200}
+                  <img
+                    src={products.image}
+                    alt="Picture of a product"
+                    className="max-w-48 max-h-48"
                   />
                 </div>
-                <div className="h-40 rounded-3xl overflow-hidden  bg-emerald-400">
+                <div className="rounded-3xl overflow-hidden bg-emerald-400">
                   <div className="text-center my-3">
                     <h2 className="text-blue-700">Rs{products.price}</h2>
                     <p>
-                      {products.description}
+                      {products.description.slice(0, 50)}
                     </p>
                   </div>
                 </div>
