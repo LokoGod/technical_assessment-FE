@@ -1,6 +1,3 @@
-import Image from "next/image";
-import MensJacket from "../../../public/Mens Jacket.png";
-
 async function getFlashSaleData() {
   const res = await fetch("https://fakestoreapi.com/products?limit=4", {
     next: { revalidate: 3600 },
@@ -43,7 +40,7 @@ export default async function FlashSale() {
                 <div className="rounded-3xl overflow-hidden bg-emerald-400">
                   <div className="text-center my-3">
                     <h2 className="text-blue-700">Rs{products.price}</h2>
-                    <p>
+                    <p className="text-sm mx-2">
                       {products.description.slice(0, 50)}
                     </p>
                   </div>
