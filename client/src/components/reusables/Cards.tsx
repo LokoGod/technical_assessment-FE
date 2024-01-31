@@ -6,28 +6,25 @@ import { Button } from "@mui/material";
 export default function Cards() {
   return (
     <>
-      <div className="max-w-sm rounded-3xl overflow-hidden shadow-lg bg-white">
+      <div className=" w-[300px] h-[400px] rounded-3xl overflow-hidden shadow-xl bg-white">
         <div className="py-4 text-center">
-          <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <div className="font-bold text-xl mb-2">Mens Cotton Jacket</div>
         </div>
         <div className="flex justify-center">
           <Image
             src={MensJacket}
             alt="Picture of the author"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
           />
         </div>
-        <div className="px-6 pt-4 pb-2">
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #photography
-          </span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #travel
-          </span>
-          <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-            #winter
-          </span>
+        <div className="h-40 rounded-3xl overflow-hidden  bg-emerald-400">
+          <div className="text-center my-3">
+          <h2 className="text-blue-700">Rs 55.99</h2>
+          <p>
+          Great outerwear jackets for Spring/Autumn/Winter, suitable for many occasions, such as working, hiking...
+          </p>
+          </div>
         </div>
       </div>
     </>
