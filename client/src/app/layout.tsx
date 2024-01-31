@@ -4,6 +4,7 @@ import "@/styles/globals.css";
 
 import Navbar from "@/components/sections/Navbar";
 import PageWrapper from "@/components/wrappers/Page-Wrapper";
+import Footer from "@/components/sections/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <PageWrapper>
           <Navbar />
           {children}
+          <Footer />
         </PageWrapper>
       </body>
     </html>

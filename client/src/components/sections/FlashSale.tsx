@@ -13,8 +13,6 @@ async function getFlashSaleData() {
 export default async function FlashSale() {
   const flashData = await getFlashSaleData();
 
-  
-
   return (
     <>
       <h2 className="mb-5">Flash Sale</h2>

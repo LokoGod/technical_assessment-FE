@@ -1,3 +1,4 @@
+import Categories from "@/components/sections/Categories";
 import FlashSale from "@/components/sections/FlashSale";
 
 export default function Home() {
@@ -5,6 +6,10 @@ export default function Home() {
     <main>
       <section>
         <FlashSale />
+      </section>
+
+      <section className="mt-8">
+        <Categories />
       </section>
     </main>
   );
