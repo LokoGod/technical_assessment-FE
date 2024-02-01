@@ -37,7 +37,7 @@ async function getWomensProductData() {
                         className="max-w-48 max-h-48"
                       />
                     </div>
-                    <div className="rounded-3xl overflow-hidden bg-emerald-400">
+                    <div className="rounded-3xl overflow-hidden bg-rose-400">
                       <div className="text-center my-3">
                         <h2 className="text-blue-700">Rs{products.price}</h2>
                         <p className="text-sm mx-2">
