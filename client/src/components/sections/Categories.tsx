@@ -6,9 +6,9 @@ export default function Categories() {
       <div className="flex justify-between">
         <a
           href="/mens-clothing"
-          className=" w-[650px] h-48 rounded-3xl overflow-hidden shadow-xl bg-emerald-400"
+          className="w-[650px] h-48 rounded-3xl overflow-hidden shadow-xl bg-emerald-400 flex justify-center items-center"
         >
-          <div className="py-4 text-center">
+          <div>
             <div className="font-bold text-3xl mb-2 text-white">
               Men's Clothing
             </div>
@@ -17,9 +17,9 @@ export default function Categories() {
 
         <a
           href="/womens-clothing"
-          className=" w-[650px] rounded-3xl overflow-hidden shadow-xl bg-rose-400"
+          className="w-[650px] h-48 rounded-3xl overflow-hidden shadow-xl bg-rose-400 flex justify-center items-center"
         >
-          <div className="py-4 text-center">
+          <div>
             <div className="font-bold text-3xl mb-2 text-white">
               Women's Clothing
             </div>
