@@ -25,7 +25,7 @@ export default async function FlashSale() {
               <div className=" max-w-[300px] h-[400px] rounded-3xl overflow-hidden shadow-xl bg-white">
                 <div className="py-4 text-center">
                   <div className="font-semibold text-xl mb-2 mx-2">
-                    {products.title.slice(0, 25)}
+                    {products.title.slice(0, 20)}
                   </div>
                 </div>
                 <div className="flex justify-center mb-2">
