@@ -1,8 +1,14 @@
 # technical_assessment-FE
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 ## Getting Started
+
+Clone and install the example
+
+```bash
+git clone https://github.com/LokoGod/technical_assessment-FE.git
+cd technical_assessment-FE/client
+npm install
+```
 
 First, run the development server:
 
