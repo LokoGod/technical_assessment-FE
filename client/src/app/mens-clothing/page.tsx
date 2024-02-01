@@ -17,8 +17,8 @@ export default async function mensClothing() {
   const mensProduct = await getMensProductData();
   return (
     <>
-      <div>
-        <h2>Men's Clothing</h2>
+      <main>
+        <h2 className="mb-5">Men's Clothing</h2>
 
         <div className="flex justify-between">
           {mensProduct.map((products: any) => {
@@ -50,7 +50,7 @@ export default async function mensClothing() {
             );
           })}
         </div>
-      </div>
+      </main>
     </>
   );
 }

@@ -17,8 +17,8 @@ async function getWomensProductData() {
     const womensProduct = await getWomensProductData();
     return (
       <>
-        <div>
-          <h2>Women's Clothing</h2>
+        <main>
+          <h2 className="mb-5">Women's Clothing</h2>
   
           <div className="grid grid-cols-4">
             {womensProduct.map((products: any) => {
@@ -50,7 +50,7 @@ async function getWomensProductData() {
               );
             })}
           </div>
-        </div>
+        </main>
       </>
     );
   }
